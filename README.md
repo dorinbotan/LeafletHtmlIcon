@@ -25,7 +25,7 @@ Or, you can define a class to reuse the same HTML element:
     
     var CustomHtmlIcon = L.HtmlIcon.extend({
         options : {
-            html : "<div style='background:white;color:red;'>Custom Html Icon!</div>",
+            html : "<div style='position:fixed;background:white;color:red;'>Custom Html Icon!</div>",
         }
     });
 
